@@ -14,6 +14,12 @@ header{
     background-color: #000;
 }
 
+a{
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
 .cabecalho{
     max-width: 1140px;
     height: 100%;
@@ -42,10 +48,7 @@ nav ul, nav li{
 }
 
 .cabecalho nav li a{
-    color: #fff;
-    text-transform: uppercase;
     font-weight: 600;
-    text-decoration: none;
     font-size: 15px;
     padding: 0 8px;
     display: flex;
@@ -57,4 +60,45 @@ nav ul, nav li{
 .cabecalho nav li a:hover, .cabecalho nav .active a{
     border-bottom: 5px solid #b28756;
     color: grey;
+}
+
+/* main */
+
+main #home{
+    height: calc(100vh - 100px);
+    background-image: url('../img/bg.jpg');
+    background-size: cover;
+    background-position: bottom;
+    overflow: hidden;
+}
+
+main .sliders{
+    width: 400vw;
+    height: 100%;
+    background-color: rgba(0,0,0,0.8);
+}
+
+main .slide{
+    width: 100vw;
+    height: 100%;
+    display: inline-block;
+}
+
+main .slide-area{
+    height: 100%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main .slide-area h1{
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+main .slide-area #outro{
+    color: #b28756;
 }
