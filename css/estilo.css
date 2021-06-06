@@ -138,3 +138,7 @@ main .poniter{
     margin-right: 5px;
     cursor: pointer;
 }
+
+main .poniter.active{
+    background-color: #b28756;
+}
