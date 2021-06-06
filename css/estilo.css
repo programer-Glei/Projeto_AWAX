@@ -119,3 +119,22 @@ main .slide-area a{
     font-size: 12px;
     font-weight: bold;
 }
+
+main .slider-pointers{
+    width: 100vw;
+    height: 20px;
+    position: absolute;
+    margin-top: -30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main .poniter{
+    width: 12px;
+    height: 12px;
+    border: 2px solid #b28756;
+    border-radius: 50%;
+    margin-right: 5px;
+    cursor: pointer;
+}
