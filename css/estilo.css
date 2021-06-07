@@ -7,6 +7,7 @@
 
 body{
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
 }
 
 header{
@@ -109,7 +110,7 @@ main .slide-area p{
     font-weight: bold;
 }
 
-main .slide-area a{
+main .apadrao{
     width: 200px;
     background-color: #b28756;
     border-radius: 30px;
@@ -141,4 +142,68 @@ main .poniter{
 
 main .poniter.active{
     background-color: #b28756;
+}
+
+/* section */
+
+main .padrao{
+    width: 100vw;
+    background-color: rgb(247, 247, 247);
+    padding: 54px 0 84px 0;
+}
+
+main .padrao .A-padrao{
+    display: block;
+    width: 200px;
+    background-color: #b28756;
+    border-radius: 30px;
+    padding: 10px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+main .padrao .container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.padrao .titulo, .padrao .conteudo{
+    width: 100%;
+}
+
+.padrao .titulo{
+    text-align: center;
+    margin-bottom: 57px;
+}
+
+.titulo h1{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.titulo p{
+    text-transform: uppercase;
+    color: rgb(175, 175, 175);
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.padrao .conteudo{
+    display: flex;
+}
+
+.conteudo .texto{
+    border: 1px solid red;
+    flex: 1;
+}
+
+.texto p{
+    margin-bottom: 30px;
+}
+
+.conteudo .video{
+    width: 440px;
+    height: 280px;
 }
