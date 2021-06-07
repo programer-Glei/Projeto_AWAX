@@ -100,7 +100,7 @@ main .slide-area h1{
     font-weight: bold;
 }
 
-main .slide-area #outro{
+main .slide-area .outro{
     color: #b28756;
 }
 
@@ -147,6 +147,7 @@ main .poniter.active{
 /* section */
 
 main .padrao{
+    border: 1px solid red;
     width: 100vw;
     background-color: rgb(247, 247, 247);
     padding: 54px 0 84px 0;
@@ -154,7 +155,7 @@ main .padrao{
 
 main .padrao .A-padrao{
     display: block;
-    width: 200px;
+    width: 180px;
     background-color: #b28756;
     border-radius: 30px;
     padding: 10px;
@@ -197,13 +198,59 @@ main .padrao .container{
 .conteudo .texto{
     border: 1px solid red;
     flex: 1;
+    margin-right: 20px;
 }
 
 .texto p{
     margin-bottom: 30px;
+    line-height: 20px;
+    font-size: 13px;
 }
 
 .conteudo .video{
+    border: 1px solid red;
     width: 440px;
     height: 280px;
+    box-shadow: 0px 5px 10px #333;
+}
+
+.padrao.black{
+    background-color: black;
+}
+
+.padrao.black h1{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.padrao.black .caixas{
+    width: 286px;
+    height: 219px;
+    padding: 23px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-left: 1px solid rgb(175, 175, 175);
+}
+
+.padrao.black .caixas:last-child{
+    border-right: 1px solid rgb(175, 175, 175);
+}
+
+.padrao.black .caixas h1{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.caixas img{
+    width: 58px;
+    height: 58px;
+    margin-bottom: 35px;
+}
+
+.caixas p{
+    color: rgb(175, 175, 175);
+    text-align: center;
+    font-size: 10px;
 }
