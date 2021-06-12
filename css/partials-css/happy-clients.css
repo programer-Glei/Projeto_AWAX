@@ -1,12 +1,10 @@
 
 .padrao.happy-clients .conteudo{
-    border: 1px solid red;
     align-items: center;
     justify-content: center;
 }
 
 .padrao.happy-clients{
-    border: 1px solid red;
     padding-left: 0;
     padding-bottom: 0;
 }
@@ -35,9 +33,23 @@
 }
 
 .padrao.happy-clients .marcas{
-    border-top: 1px solid black;
-    border-bottom: 1px solid blac;
+    border-top: 1px solid rgb(207, 207, 207);
+    border-bottom: 1px solid rgb(207, 207, 207);
+    background-color: rgb(255, 255, 255);
     width: 100%;
-    height: 150px;
+    height: 130px;
     margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+.marcas .empresas{
+    width: 100%;
+    max-width: 1140px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
