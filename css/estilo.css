@@ -364,11 +364,30 @@ main .padrao .container{
 .padrao.our-team{
     background-image: url("https://source.unsplash.com/random?id=1");
     padding: 0 0;
+    height: 100vh;
 }
 
 .padrao.our-team .preta{
     position: absolute;
     width: 100%;
+    height: 100%;
     background-color: rgba(0,0,0,0.6);
     padding: 54px;
+}
+
+.padrao.our-team .titulo{
+    margin-bottom: 40px;
+}
+
+.padrao.our-team .conteudo{
+    border: 1px solid red;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+
+.padrao.our-team .team-ct-fotos{
+    width: 350px;
+    height: 430px;
+    border-radius: 20px;
+    background-color: rgb(247, 247, 247);
 }
