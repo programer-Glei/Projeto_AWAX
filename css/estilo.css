@@ -253,7 +253,6 @@ main .padrao .container{
 }
 
 .padrao.service .conteudo{
-    border: 1px solid red;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -363,6 +362,8 @@ main .padrao .container{
 
 .padrao.our-team{
     background-image: url("https://source.unsplash.com/random?id=1");
+    background-size: cover;
+    background-position: center;
     padding: 0 0;
     height: 100vh;
 }
@@ -371,7 +372,7 @@ main .padrao .container{
     position: absolute;
     width: 100%;
     height: 100%;
-    background-color: rgba(0,0,0,0.6);
+    background-color: rgba(0,0,0,0.7);
     padding: 54px;
 }
 
@@ -379,10 +380,34 @@ main .padrao .container{
     margin-bottom: 40px;
 }
 
+.padrao.our-team .titulo h1{
+    color: white;
+}
+
 .padrao.our-team .conteudo{
-    border: 1px solid red;
     justify-content: space-between;
     padding: 0 15px;
+}
+
+.team-ct-fotos .div-foto{
+    width: 180px;
+    height: 180px;
+}
+
+.div-nome h1{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.div-nome p{
+    font-size: 11px;
+    text-align: center;
+}
+
+.div-foto img{
+    width: inherit;
+    height: inherit;
 }
 
 .padrao.our-team .team-ct-fotos{
@@ -390,4 +415,26 @@ main .padrao .container{
     height: 430px;
     border-radius: 20px;
     background-color: rgb(247, 247, 247);
+    padding: 45px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.div-red{
+    width: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.div-red .div-icon{
+    width: 33px;
+    height: 33px;
+    background-color: rgb(190, 190, 190);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
