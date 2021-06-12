@@ -365,13 +365,13 @@ main .padrao .container{
     background-size: cover;
     background-position: center;
     padding: 0 0;
-    height: 100vh;
+    height: 90vh;
 }
 
 .padrao.our-team .preta{
     position: absolute;
     width: 100%;
-    height: 100%;
+    height: inherit;
     background-color: rgba(0,0,0,0.7);
     padding: 54px;
 }
@@ -385,8 +385,24 @@ main .padrao .container{
 }
 
 .padrao.our-team .conteudo{
+    flex-direction: column;
+}
+
+.padrao.our-team .conteudo-fotos{
+    display: flex;
+    align-items: center;
     justify-content: space-between;
     padding: 0 15px;
+}
+
+.padrao.our-team .slider-pointers{
+    width: 100%;
+    height: 20px;
+    position: initial;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .team-ct-fotos .div-foto{
