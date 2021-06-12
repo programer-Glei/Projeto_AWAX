@@ -384,7 +384,7 @@ main .padrao .container{
     color: white;
 }
 
-.padrao.our-team .conteudo{
+.padrao.our-team .conteudo, .padrao.happy-clients .conteudo{
     flex-direction: column;
 }
 
@@ -395,7 +395,7 @@ main .padrao .container{
     padding: 0 15px;
 }
 
-.padrao.our-team .slider-pointers{
+.padrao.our-team .slider-pointers, .padrao.happy-clients .slider-pointers{
     width: 100%;
     height: 20px;
     position: initial;
