@@ -9,6 +9,10 @@
     padding-bottom: 0;
 }
 
+.padrao.happy-clients .titulo h1{
+    font-size: 1.5em;
+}
+
 .padrao.happy-clients .conteudo .foto{
     width: 150px;
     height: 150px;
