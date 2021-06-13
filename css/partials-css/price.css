@@ -1,0 +1,48 @@
+
+.padrao.price .table{
+    width: 260px;
+    height: 340px;
+    padding: 30px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.table .t-titulo{
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.table .preco{
+    font-size: 25px;
+}
+
+.table .mes{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 12px;
+    color: rgb(174, 174, 174);
+    margin-bottom: 10px;
+}
+
+.table .normal{
+    font-size: 11px;
+}
+
+.table .traco{
+    width: 8px;
+    height: 1px;
+    background-color: black;
+}
+
+.padrao.price .table .A-padrao{
+    border: 1px solid red;
+    width: 125px;
+    margin-top: 25px;
+    background-color: rgb(55, 55, 55);
+}
