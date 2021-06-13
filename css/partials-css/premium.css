@@ -1,0 +1,77 @@
+
+.padrao.premium{
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 0;
+}
+
+.padrao.premium .conteudo{
+    border-bottom: 1px solid rgb(216, 216, 216);
+    padding-left: 25px;
+    padding-bottom: 33px;
+}
+
+.padrao.premium .livros{
+    width: 500px;
+}
+
+.padrao.premium .detalhes{
+    flex: 1;
+}
+
+.padrao.premium .detalhes .text-detalhes{
+    width: 100%;
+    display: flex;
+    margin-bottom: 22px;
+}
+
+.padrao.premium .detalhes .imagem{
+    margin-right: 35px;
+}
+
+.padrao.premium .detalhes .resumo h1{
+    text-transform: uppercase;
+    font-size: 1.3em;
+    margin-bottom: 10px;
+}
+
+.detalhes .resumo p{
+    line-height: 25px;
+    margin-bottom: 10px;
+    color: rgb(142, 142, 142);
+}
+
+.detalhes .resumo .maiscula{
+    display: flex;
+    align-items: center;
+}
+
+.resumo .traco{
+    width: 10px;
+    height: 2px;
+    background-color: rgb(142, 142, 142);
+}
+
+.detalhes .resumo .maiscula .tr{
+    height: 22px;
+    padding: 7px 0;
+    margin-right: 3px;
+}
+
+.detalhes .resumo .maiscula p{
+    text-transform: uppercase;
+    height: 22px;
+}
+
+.padrao.premium .slider-pointers{
+    width: 100%;
+    height: 20px;
+    position: initial;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.padrao.premium .A-padrao{
+    margin: 40px auto;
+}
