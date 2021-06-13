@@ -1,4 +1,10 @@
 
+
+.padrao.price .conteudo{
+    justify-content: space-between;
+}
+
+
 .padrao.price .table{
     width: 260px;
     height: 340px;
@@ -41,7 +47,6 @@
 }
 
 .padrao.price .table .A-padrao{
-    border: 1px solid red;
     width: 125px;
     margin-top: 25px;
     background-color: rgb(55, 55, 55);
