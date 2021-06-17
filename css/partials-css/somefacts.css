@@ -12,3 +12,12 @@
     background-color: rgb(126, 126, 126);
     margin-bottom: 5px;
 }
+
+.padrao.black.some .caixas{
+    border: none;
+    justify-content: space-between;
+}
+
+.padrao.black.some .caixas p{
+    margin-top: 10px;
+}
