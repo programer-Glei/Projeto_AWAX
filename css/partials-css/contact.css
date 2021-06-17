@@ -1,13 +1,14 @@
 
-.padrao.contact .conteudo{
-    border: 1px solid red;
-}
 
 .padrao.contact .conteudo form{
     width: 600px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
+}
+
+.padrao.contact .conteudo form .A-padrao{
+    margin: 0 auto;
 }
 
 .padrao.contact .conteudo input{
@@ -17,4 +18,13 @@
     border: none;
     padding: 15px 0;
     border-bottom: 2px solid rgb(174, 174, 174);
+}
+
+.padrao.contact .conteudo .form-input{
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.padrao.contact .conteudo .form-input .espaco{
+    margin-right: 35px;
 }
