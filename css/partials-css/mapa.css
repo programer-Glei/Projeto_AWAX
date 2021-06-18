@@ -8,3 +8,10 @@
 .mapa #mapid{
     height: 100%;    
 }
+
+.mapa #mapid .endereco{
+    width: 540px;
+    height: 340px;
+    background-color: white;
+    position: absolute;
+}
