@@ -16,6 +16,8 @@
     position: absolute;
 }
 
+/* FOOTER */
+
 footer{
     width: 100vw;
     background-color: black;
@@ -25,4 +27,37 @@ footer{
 footer .container{
     max-width: 1140px;
     margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer .container .cont-item{
+    width: 345px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid red;
+}
+
+footer .container .cont-item.paragro{
+    display: block;
+}
+
+.cont-item p{
+    color: gray;
+    font-size: 14px;
+    padding: 0 5px;
+    height: 100%;
+}
+
+.cont-item form{
+    width: 100%;
+    height: 100%;
+}
+
+.cont-item #marca{
+    color: white;
+    height: fit-content;
 }
