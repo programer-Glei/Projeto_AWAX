@@ -1,0 +1,41 @@
+
+@media (min-width: 450px) and (max-width: 800px){
+
+    .cabecalho{
+        padding: 0 40px;
+        justify-content: space-between;
+    }
+
+    .menu-open{
+        display: block;
+    }
+
+    .cabecalho nav{
+        visibility: hidden;
+        display: block;
+        position: absolute;
+        z-index: 99;
+        background-color: rgba(0, 0, 0, 0.9);
+        width: 70vw;
+        height: calc(100vh - 150px);
+        top: 100px;
+        right: 0;
+    }
+
+    .cabecalho nav ul{
+        flex-direction: column;
+    }
+
+    .cabecalho nav li a{
+        font-weight: bold;
+        font-size: 20px;
+        margin-left: 50px;
+        border: none;
+        height: 50px;
+    }
+
+    .cabecalho nav li a:hover, .cabecalho nav .active a{
+        border: none;
+        color: #b28756;
+    }
+}
