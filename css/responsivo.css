@@ -38,4 +38,45 @@
         border: none;
         color: #b28756;
     }
+
+    .padrao .conteudo{
+        padding: 0 30px;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .padrao .texto{
+        margin-bottom: 30px;
+    }
+
+    .padrao.black .conteudo{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .padrao.black .caixas{
+        border: none;
+    }
+
+    .padrao.black .caixas.segunda, .padrao.black .caixas.ultima{
+        border-left: 1px solid rgb(175, 175, 175);
+    }
+
+    .padrao.black .caixas:last-child{
+        border-right: none;
+    }
+
+    .padrao.our-team .team-ct-fotos{
+        width: 319px;
+        height: 402px;
+        margin-right: 18px;
+    }
+
+    .padrao.our-team{
+        height: 685px;
+    }
+
+    .padrao.our-team .team-ct-fotos:last-child{
+        display: none;
+    }
 }
