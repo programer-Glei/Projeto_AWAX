@@ -79,4 +79,13 @@
     .padrao.our-team .team-ct-fotos:last-child{
         display: none;
     }
+
+    .padrao.price .conteudo{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .padrao.price .conteudo .table{
+        margin: 10px auto;
+    }
 }
