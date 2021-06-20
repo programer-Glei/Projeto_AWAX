@@ -1,4 +1,7 @@
 
+
+/* RESPONSIVIDADE PARA TABLET*/
+
 @media (min-width: 450px) and (max-width: 800px){
 
     .cabecalho{
@@ -88,4 +91,11 @@
     .padrao.price .conteudo .table{
         margin: 10px auto;
     }
+}
+
+/* RESPOSIVIDADE PARA CELULAR */
+
+@media (min-width: 450px) and (max-width: 800px){
+
+    
 }
