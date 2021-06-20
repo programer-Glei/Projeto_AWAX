@@ -224,6 +224,28 @@
         margin: 10px auto;
     }
 
+    .padrao.contact .conteudo form {
+        width: 266px !important;
+    }
+
+    .padrao.contact .form-input{
+        flex-direction: column;
+    }
+
+    .mapa .endereco {
+        width: 100% !important;
+    }
+
+    .mapa .endereco .end-item p {
+        font-size: 9px;
+    }
+
+    .mapa .endereco .end-item .img {
+        width: 30px;
+        height: 30px;
+        margin-right: 8px;
+    }
+
     footer .container{
         flex-direction: column;
     }
