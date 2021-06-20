@@ -95,7 +95,136 @@
 
 /* RESPOSIVIDADE PARA CELULAR */
 
-@media (min-width: 450px) and (max-width: 800px){
+@media (max-width: 450px){
+    .cabecalho{
+        padding: 0 40px;
+        justify-content: space-between;
+    }
 
+    .menu-open{
+        display: block;
+    }
+
+    .cabecalho nav{
+        visibility: hidden;
+        display: block;
+        position: absolute;
+        z-index: 99;
+        background-color: rgba(0, 0, 0, 0.9);
+        width: 70vw;
+        height: calc(100vh - 150px);
+        top: 100px;
+        right: 0;
+    }
+
+    #home .slide-area h1{
+        font-size: 34px;
+    }
+
+    .cabecalho nav ul{
+        flex-direction: column;
+    }
+
+    .cabecalho nav li a{
+        font-weight: bold;
+        font-size: 20px;
+        margin-left: 50px;
+        border: none;
+        height: 50px;
+    }
+
+    .cabecalho nav li a:hover, .cabecalho nav .active a{
+        border: none;
+        color: #b28756;
+    }
+
+    .padrao .conteudo{
+        padding: 0 30px;
+        flex-direction: column;
+        align-items: center;
+    }
     
+    .padrao .texto{
+        margin-bottom: 30px;
+    }
+
+    .padrao .video{
+        width: 350px;
+        height: 220px;
+    }
+
+    .padrao .video iframe{
+        width: 350px;
+        height: 220px;
+    }
+
+    .padrao.black .conteudo{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .padrao.black .caixas{
+        border: none;
+    }
+
+    .padrao.black .caixas.segunda, .padrao.black .caixas.ultima{
+        border: none;
+    }
+
+    .padrao.black .caixas:last-child{
+        border: none;
+    }
+
+    .padrao.our-team .team-ct-fotos{
+        width: 319px;
+        height: 402px;
+        margin-right: 18px;
+    }
+
+    .padrao.service .filters, .filters li, .filters a{
+        width: 110%;
+    }
+
+    .padrao.service .filters ul{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .padrao.service .filters a{
+        border-bottom: none;
+        border-top: none;
+    }
+
+    .padrao.our-team{
+        height: 685px;
+    }
+
+    .padrao.our-team .team-ct-fotos:last-child{
+        display: none;
+    }
+
+    .padrao.our-team .team-ct-fotos:first-child{
+        display: none;
+    }
+
+    .padrao.happy-clients #n3, #n4, #n5, #n6{
+        display: none;
+    }
+
+    .padrao.happy-clients .empresas{
+        padding: 0 80px;
+    }
+
+    .padrao.price .conteudo{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .padrao.price .conteudo .table{
+        margin: 10px auto;
+    }
+
+    footer .container{
+        flex-direction: column;
+    }
 }
